@@ -1,0 +1,33 @@
+# stellar.toml for Tesla Energy | Stellar Invest (TESX)
+
+VERSION = "2.0.0"
+
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+
+FEDERATION_SERVER = "https://tesxenergy.org/federation"
+AUTH_SERVER = "https://tesxenergy.org/auth"
+TRANSFER_SERVER = "https://tesxenergy.org/transfer"
+
+ACCOUNTS = [
+  "SBPOR4FPDYMCHM53TNVW7JP6GME4RZP24MDN44P6JRHCBQOLO3Q2RERK"
+]
+
+DOCUMENTATION = {
+  ORG_NAME = "Tesla Energy | Stellar Invest",
+  ORG_DBA = "TESX",
+  ORG_URL = "https://tesxenergy.org",
+  ORG_LOGO = "https://tesxenergy.org/logo.png",
+  ORG_DESCRIPTION = "A renewable energy blockchain empire focused on solar, wind, and EV charging stations.",
+  ORG_PHYSICAL_ADDRESS = "Silicon Valley, CA, USA",
+  ORG_EMAIL = "tesx.energy@proton.me"
+}
+
+[[CURRENCIES]]
+code = "TESX"
+issuer = "SBPOR4FPDYMCHM53TNVW7JP6GME4RZP24MDN44P6JRHCBQOLO3Q2RERK"
+display_decimals = 2
+name = "Tesla Energy | Stellar Invest"
+desc = "Token powering the Tesla Energy blockchain ecosystem for renewable energy and EV charging."
+conditions = "Backed by renewable energy investments and infrastructure."
+image = "https://tesxenergy.org/tesx_token.png"
+fixed_number = 1000000000
